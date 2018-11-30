@@ -24,10 +24,10 @@ In Android we know that we cannot just pass objects to activities. The objects m
 
 **Serializable**
 
-Serializable is a standard Java interface. You can just implement Serializable interface and add override methods.The problem with this approach is that reflection is used and it is a slow process. This method create a lot of temporary objects and cause quite a bit of garbage collection. Serializable interface is easier to implement.
+`Serializable` is a standard Java interface. You can just implement `Serializable` interface and add override methods. The problem with this approach is that reflection is used and it is a slow process. This method create a lot of temporary objects and cause quite a bit of garbage collection. `Serializable` interface is easier to implement.
 
 **Parcelable**
 
-Parcelable process is much faster than serializable. One of the reasons for this is that we are being explicit about the serialization process instead of using reflection to infer it. It also stands to reason that the code has been heavily optimized for this purpose.
+`Parcelable` process is much faster than serializable. One of the reasons for this is that we are being explicit about the serialization process instead of using reflection to infer it. It also stands to reason that the code has been heavily optimized for this purpose.
 
 Source- [link](https://stackoverflow.com/a/23647471/1092989)
