@@ -18,7 +18,7 @@ A PendingIntent specifies an action to take in the future. It lets you pass a fu
 
 Source- [link 1](https://stackoverflow.com/a/13329731/1092989), [link 2](https://stackoverflow.com/a/15873786/1092989)
 
-## Android: Difference between Parcelable and Serializable?
+## Difference between Parcelable and Serializable?
 
 In Android we know that we cannot just pass objects to activities. The objects must be either implements Serializable or Parcelable interface to do this.
 
