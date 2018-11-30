@@ -16,5 +16,4 @@ Explicit intents are used in the application itself wherein one activity can swi
 **Pending intent**
 A PendingIntent specifies an action to take in the future. It lets you pass a future Intent to another application and allow that application to execute that Intent as if it had the same permissions as your application.
 
-Source- [link 1](https://stackoverflow.com/a/13329731/1092989)
-[link 2](https://stackoverflow.com/a/15873786/1092989)
+Source- [link 1](https://stackoverflow.com/a/13329731/1092989), [link 2](https://stackoverflow.com/a/15873786/1092989)
