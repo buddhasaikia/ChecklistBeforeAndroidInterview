@@ -32,8 +32,8 @@ In Android we know that we cannot just pass objects to activities. The objects m
 
 Source- [link](https://stackoverflow.com/a/23647471/1092989)
 
+## What is the difference between HashMap and ArrayList?
 | HashMap  | ArrayList  |
 |---|---|
-|Unordered collection of objects   | Ordered collection of objects  |
-|   |   |
-|   |   |
+|Unordered collection of key value pairs   | Ordered collection of objects  |
+|Can not contain duplicate key   |May contain duplicate objects   |
