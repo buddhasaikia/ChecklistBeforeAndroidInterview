@@ -31,3 +31,9 @@ In Android we know that we cannot just pass objects to activities. The objects m
 `Parcelable` process is much faster than serializable. One of the reasons for this is that we are being explicit about the serialization process instead of using reflection to infer it. It also stands to reason that the code has been heavily optimized for this purpose.
 
 Source- [link](https://stackoverflow.com/a/23647471/1092989)
+
+| HashMap  | ArrayList  |
+|---|---|
+|Unordered collection of objects   | Ordered collection of objects  |
+|   |   |
+|   |   |
