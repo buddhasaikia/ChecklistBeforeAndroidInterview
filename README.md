@@ -1,4 +1,4 @@
-# Interview Cheat Sheet
+# Check list before Android interview
 Android interview check list just before interview. Answers have been curated from internet (mainly stackoverflow, android developer guide)
 
 ## What is intent? What are different types of intent?
